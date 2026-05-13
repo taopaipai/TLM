@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLM Telecomunicaciones | Ingeniería y Conectividad de Élite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Open Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+        .bg-tlm-blue { background-color: #002B5B; }
+        .text-tlm-blue { color: #002B5B; }
+        .bg-tlm-accent { background-color: #1A5F7A; }
+        .border-tlm-accent { border-color: #1A5F7A; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-tlm-blue">TLM<span class="text-tlm-accent">.</span></div>
+            <nav class="hidden md:flex space-x-8 font-semibold">
+                <a href="#servicios" class="hover:text-tlm-accent">Servicios</a>
+                <a href="#casos" class="hover:text-tlm-accent">Casos de Éxito</a>
+                <a href="#contacto" class="hover:text-tlm-accent">Contacto</a>
+            </nav>
+            <a href="https://wa.me/569XXXXXXXX" class="bg-tlm-accent text-white px-6 py-2 rounded-full font-bold hover:bg-opacity-90 transition">WhatsApp</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-tlm-blue text-white">
+        <div class="container mx-auto px-6 text-center md:text-left flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    15 años transformando la conectividad de la industria en Chile.
+                </h1>
+                <p class="text-lg md:text-xl mb-8 opacity-90">
+                    Desde infraestructura crítica hasta soluciones rurales de alta gama. Ingeniería de terreno que genera confianza real.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contacto" class="bg-tlm-accent text-white px-8 py-4 rounded-lg font-bold text-center hover:bg-opacity-90 transition">Cotizar Proyecto</a>
+                    <a href="#servicios" class="border border-white px-8 py-4 rounded-lg font-bold text-center hover:bg-white hover:text-tlm-blue transition">Nuestros Servicios</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0">
+                <!-- Placeholder for high-quality field image -->
+                <div class="bg-gray-400 w-full h-64 md:h-96 rounded-xl flex items-center justify-center text-gray-200 italic">
+                    [Imagen: Equipo TLM en terreno con uniforme y casco]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients / Trust Bar -->
+    <section class="py-12 bg-gray-50 border-b">
+        <div class="container mx-auto px-6">
+            <p class="text-center text-sm uppercase tracking-widest text-gray-500 font-bold mb-8">Empresas que confían en nuestra ingeniería</p>
+            <div class="flex flex-wrap justify-center items-center gap-12 opacity-60">
+                <span class="text-2xl font-bold">GASCO</span>
+                <span class="text-2xl font-bold">VIÑA CASA DEL BOSQUE</span>
+                <span class="text-2xl font-bold">PESQUERAS CHILE</span>
+                <span class="text-2xl font-bold">AGROINDUSTRIA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-tlm-blue mb-4">Soluciones de Grado Industrial</h2>
+                <div class="w-20 h-1 bg-tlm-accent mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Servicio 1 -->
+                <div class="p-8 border border-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-tlm-accent text-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Conectividad Empresarial</h3>
+                    <p class="text-gray-600">Fibra óptica de alta disponibilidad, redes Wi-Fi industriales y enlaces punto a punto para operaciones críticas.</p>
+                </div>
+                <!-- Servicio 2 -->
+                <div class="p-8 border border-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-tlm-accent text-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Seguridad y Monitoreo</h3>
+                    <p class="text-gray-600">Sistemas CCTV con análisis inteligente, cámaras solares para zonas remotas y control de acceso robusto.</p>
+                </div>
+                <!-- Servicio 3 -->
+                <div class="p-8 border border-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-tlm-accent text-white rounded-lg flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Telemetría y IoT (Wise)</h3>
+                    <p class="text-gray-600">Monitoreo de tanques, variables críticas y automatización industrial con tecnología propia de TLM.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caso de Éxito Destacado -->
+    <section id="casos" class="py-20 bg-tlm-blue text-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Rescate Crítico: Viña Casa del Bosque</h2>
+                    <p class="text-lg opacity-90 mb-8">
+                        Cuando los servidores principales cayeron y la producción se detuvo, TLM respondió en tiempo récord. Reconstruimos la red troncal y aseguramos una estabilidad que hoy permite a la viña operar sin interrupciones.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 mb-8">
+                        <div>
+                            <p class="text-3xl font-bold text-tlm-accent">100%</p>
+                            <p class="text-sm opacity-70">Uptime Garantizado</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-tlm-accent">4hs</p>
+                            <p class="text-sm opacity-70">Respuesta Crítica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div class="bg-gray-300 w-full h-80 rounded-2xl flex items-center justify-center text-gray-600 italic">
+                        [Imagen: Rack de servidores organizado y certificado]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rural Connectivity -->
+    <section class="py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <div class="bg-gray-100 w-full h-80 rounded-2xl flex items-center justify-center text-gray-500 italic">
+                    [Imagen: Parcela en la Zona Sur con antena Starlink]
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <span class="text-tlm-accent font-bold uppercase tracking-widest text-sm">Especialistas en Zona Sur</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-tlm-blue mt-4 mb-6">Conectamos tu parcela, por muy lejos que esté.</h2>
+                <p class="text-gray-600 mb-8">
+                    Llegamos donde otros no llegan. Instalamos Starlink de grado profesional, cámaras solares inteligentes y sistemas de respaldo energético para que tu tranquilidad no dependa de la ubicación.
+                </p>
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-tlm-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>
+                        <span>Cámaras 100% Solares (Sin cables)</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-tlm-accent" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg>
+                        <span>Wi-Fi de Alta Velocidad en toda la propiedad</span>
+                    </li>
+                </ul>
+                <a href="https://wa.me/569XXXXXXXX" class="inline-block bg-tlm-accent text-white px-8 py-4 rounded-lg font-bold hover:bg-opacity-90 transition">Consultar Factibilidad Rural</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/2 bg-tlm-blue p-12 text-white">
+                    <h2 class="text-3xl font-bold mb-6">Hablemos de tu próximo paso técnico.</h2>
+                    <p class="opacity-80 mb-10">Completa el formulario o escríbenos directamente por WhatsApp. Esteban o un técnico senior te contactará en menos de 24 horas.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <span class="font-bold">📍 Chile:</span> Antofagasta | RM | Zona Sur
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <span class="font-bold">📧 Email:</span> contacto@tlm.cl
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 p-12">
+                    <form action="#" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Nombre o Empresa</label>
+                            <input type="text" class="w-full border-b-2 border-gray-200 focus:border-tlm-accent outline-none py-2 transition" placeholder="Tu nombre">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">¿En qué podemos ayudarte?</label>
+                            <select class="w-full border-b-2 border-gray-200 focus:border-tlm-accent outline-none py-2 transition">
+                                <option>Conectividad Industrial</option>
+                                <option>Proyecto Parcela / Rural</option>
+                                <option>Seguridad CCTV</option>
+                                <option>Proyecto Wise (Telemetría)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Mensaje</label>
+                            <textarea rows="3" class="w-full border-b-2 border-gray-200 focus:border-tlm-accent outline-none py-2 transition" placeholder="Cuéntanos brevemente tu necesidad"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-tlm-blue text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">Enviar Consulta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white border-t">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-2xl font-bold text-tlm-blue mb-6">TLM<span class="text-tlm-accent">.</span></div>
+            <p class="text-gray-500 text-sm">© 2026 TLM SPA Telecomunicaciones. 15 años de ingeniería de terreno.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
